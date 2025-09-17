@@ -262,6 +262,7 @@ def main():
         "adjust_batch_size": True,
         "request_path": request_path,
         "max_data_size": args.max_data_size,
+        # "max_data_size": 10000,
         "max_steps": args.max_steps,
         "wandb_log_dir": train_cst.WANDB_LOGS_DIR,
         "min_steps": args.min_steps,
